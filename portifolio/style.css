@@ -56,19 +56,19 @@ header {
     text-align: center;
     text-decoration: none;
     color: inherit;
-    background: 
-    linear-gradient(to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1)),
-    linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
-  background-size: 100% 0.1em, 0 0.1em;
-  background-position: 40% 40%, 0 40%;
-  background-repeat: no-repeat;
-  transition: background-size 400ms;
+    background:
+        linear-gradient(to right, rgba(100, 200, 200, 1), rgba(100, 200, 200, 1)),
+        linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 40% 40%, 0 40%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
 
 }
 
 .menu:hover,
 .menu:focus {
-  background-size: 0 0.1em, 100% 0.1em;
+    background-size: 0 0.1em, 100% 0.1em;
 }
 
 .sub-menu {
@@ -89,42 +89,42 @@ header {
 }
 
 
-.Contatos > h3{
+.Contatos>h3 {
     position: relative;
     margin-left: 48px;
-   
+
 }
 
-.curriculo > a{
- margin-left: 20px;
- text-decoration: none;
- background-color: #0000ff;
- padding: 12px;
- border-radius: 8px;
+.curriculo>a {
+    margin-left: 20px;
+    text-decoration: none;
+    background-color: #0000ff;
+    padding: 12px;
+    border-radius: 8px;
 }
 
-.icon-download{
+.icon-download {
     color: #fff;
     font-size: 1.4rem;
     border-radius: 8px;
 }
 
-.icon-linkedin{
-    font-size: 4rem;  
+.icon-linkedin {
+    font-size: 4rem;
 }
 
-.zap{
-    font-size: 4rem;  
+.zap {
+    font-size: 4rem;
 }
 
-.meus-projetos{
+.meus-projetos {
     border-radius: 12px;
     transition: transform 0.5s;
 }
 
-.meus-projetos:hover{
+.meus-projetos:hover {
     transform: scale(1.1);
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .paragrafo {
@@ -203,12 +203,12 @@ h3 {
     justify-content: center;
     align-items: center;
     background-color: #191919;
-  
+
     margin-top: 70px;
     cursor: pointer;
 }
 
-.titulo-projetos{
+.titulo-projetos {
     position: relative;
     left: 28px;
 }
@@ -221,11 +221,12 @@ h3 {
 
     margin-left: 40%;
 
+
 }
 
 .Contatos a :hover {
     transform: scale(1.1);
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 
@@ -235,7 +236,7 @@ h3 {
     gap: 15px;
     align-items: right;
     margin-top: 570px;
-  
+
 
 
 }
@@ -244,40 +245,139 @@ h3 {
 @media screen and (max-width: 1020px) {
 
 
-  
-
-    nav{
-      
-       display: none;
-       
-    } 
+nav {display: none;}
 
     h2.Portifólio {
-        
         font-size: 70px;
     }
 
     .img-principal {
+        width: 210px;
+        height: 210px;
+        position: absolute;
+        top: 180px;
+        left: 20px;
+    }
+
+    .paragrafo {
+        margin-top: 300px;
+        display: block;
+        width: 90%;
+        font-size: 16px;
+        position: absolute;
+        align-items: center;
+    }
+
+    .Inicio {
+        width: 50%;
+        text-align: right;
+        position: absolute;
+        right: 0;
+        z-index: 10;
+    }
+
+    .titulo-projetos {
         
-        width: 190px;
-        height: 190px;
+        margin-top:50px ;
+        margin-left:110px;
+        
+    }
+
+    .Projetos {
         display: flex;
-        justify-content: left;
+        flex-direction: column;
+        align-items: center;
     }
 
-    .Inicio{
-       width: 10px;
-       left: 10px;
+    .Projetos p,
+    .Projetos div {
+
+       
+        margin: 10px 0;
+        margin-left:1% ;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .habilidades {
+        margin-top: 650px;
+        margin-left:130px;
+        height: auto;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
     }
 
 
+    .Contatos{
+        
+        margin-left:110px ;
+        height: auto;
+        display: flex;
+       
+        
+    }
+
+    .Contatos h3 {
+        
+        display: none;
+        
+    }
+
+    .curriculo{
+        margin-left: 150px;
+        margin-bottom: 20px;
+    }
+    
+    
+   
 
 }
 
 
-
 @media (orientation: landscape) {
 
-    
 
+
+    .paragrafo {
+        margin-top: 400px;
+        width: 90%;
+      
+    }
+
+
+    .titulo-projetos {
+        
+        margin-top:50px ;
+        margin-left:280px;
+        
+    }
+
+
+
+    .habilidades {
+        margin-top: 650px;
+        margin-left:290px;
+        height: auto;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .Contatos{
+        
+        margin-left:260px ;
+        height: auto;
+        display: flex;
+       
+        
+    }
+
+    .curriculo{
+        margin-left: 290px;
+        margin-bottom: 20px;
+    }
 }
