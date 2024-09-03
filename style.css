@@ -7,6 +7,7 @@
     font-family: 'PT Serif', serif;
     background-color: #191919;
     color: #f3eaea;
+    
 }
 
 .menu-principal {
@@ -80,6 +81,7 @@ header {
     font-weight: 400;
     border: none;
     line-height: 15px;
+    
 }
 
 
@@ -135,6 +137,8 @@ header {
     line-height: 33px;
     letter-spacing: 0.5px;
     width: 493px;
+    display: grid;
+    justify-content: left;
 
 }
 
@@ -142,6 +146,8 @@ header {
     margin: 85px 0 0 52px;
     border: none;
     background-color: #191919;
+    display: grid;
+   justify-items: center;
 
 
 
@@ -163,6 +169,7 @@ header {
 }
 
 
+
 p1 {
 
     margin-left: 30px;
@@ -174,19 +181,14 @@ p2 {
     margin-left: 30px;
 }
 
-.habilidades {
-
-    margin-top: 25%;
-    margin-left: 0;
-
-
-
-}
-
 h3 {
     font-size: 30px;
     padding: 15px;
-    ;
+   display: grid;
+   justify-items: center;
+    
+    
+ 
 
 }
 
@@ -236,6 +238,8 @@ h3 {
     gap: 15px;
     align-items: right;
     margin-top: 570px;
+    display: grid;
+    justify-items: end;
 
 
 
